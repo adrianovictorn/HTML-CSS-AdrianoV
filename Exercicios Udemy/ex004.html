@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Posicionamento</title>
+    <style>
+
+        body{
+            background-color: blue;
+        }
+
+        header{
+            width: 900px;
+            margin: auto;
+            background-color: white;
+        }
+
+        article{
+            padding: 10px;
+            width: 350px;
+        }
+
+        p{
+            border: 1px solid red;
+        }
+
+        .relative{
+            position: relative;
+            bottom: 10px;
+            left: 500px;
+        }
+
+        .absolute{
+            position: absolute;
+            bottom: 10px;
+            left: 500px;
+            color: black;
+            background-color: red
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 10px;
+            left: 500px;
+            color: black;
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--Posições em CSS são às:
+        
+        static (estatica - posicionamento padrão)
+
+        relative (relativa - posicionamento relativo ao conteúdo do site)
+
+        absolute (absoluto - posicionamento definido em relação ao conteúdo da caixa)
+
+        fixed (fixo - posicionamento definido em relação ao conteúdo da página)
+
+        em posições você pode utilizar as seguintes  propriedades: top, right, bottom, left.
+    -->
+    <header>
+        <article>
+            <p class="relative">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, beatae praesentium? Asperiores blanditiis similique rerum. Saepe nemo deserunt, quidem fugit illum dolore. Sunt omnis exercitationem nulla ab ullam atque fuga.</p>
+            <p class="absolute">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, veritatis sint voluptatum enim quo suscipit incidunt tenetur impedit cupiditate excepturi esse nobis voluptas expedita quisquam iure, odio sapiente quos corrupti.</p>
+            <p class="fixed">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium commodi necessitatibus officiis quidem inventore dolorum atque? Assumenda hic dolore illo, aperiam nam sapiente corrupti, unde, magnam numquam libero blanditiis maxime?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, iste vel cum facere asperiores est deserunt numquam maiores sint amet unde autem nesciunt fugiat accusantium omnis et voluptates reiciendis. Accusamus.</p>
+            
+        </article>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas laborum nulla, eum corrupti sunt molestiae facere facilis nesciunt quibusdam laboriosam. Iure et, quaerat quam enim quas dolore nobis accusamus consequatur.
+
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+v<br>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+<br>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+<br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+        <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+v<br>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, incidunt reprehenderit placeat soluta nam, officiis dolorum necessitatibus laboriosam vel tempora magni voluptates optio architecto unde earum, nobis quidem sunt. Labore!
+<br>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aliquid nihil rerum, nisi necessitatibus vel, sapiente, suscipit consequatur fugit eligendi veritatis. Nulla odio dolores sed ea deleniti provident quasi autem!
+v
+        
+        </p>
+    </header>
+</body>
+</html>
