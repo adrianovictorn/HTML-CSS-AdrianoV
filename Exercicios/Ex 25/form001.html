@@ -8,11 +8,15 @@
         *{
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        form{
+            float: inline-end;
+        }
     </style>
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="on">
+    <form action="cadastro.php" autocomplete="on" method="post">
         <p><label for="inome">Nome:</label>  
             <input type="text" name="nome" id="inome"></p>
         <p><label for="iSobrenome">Sobrenome:    </label>
