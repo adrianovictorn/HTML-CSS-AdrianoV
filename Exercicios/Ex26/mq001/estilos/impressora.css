@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*Impressora*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
