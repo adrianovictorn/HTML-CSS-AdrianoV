@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+</head>
+<style>
+    a{
+        text-align: right;
+    }
+    header > nav > a{
+        text-decoration: none;
+        color: white;
+        display: inline;
+
+    }
+    header > nav > a:hover{
+        text-decoration: none;
+        color: rgba(117, 114, 114, 0.473);
+
+    }
+    body{
+        background-image: linear-gradient(to top, blue,rgb(17, 35, 94));
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container{
+        border: 0.2px solid black;
+        border-radius: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        margin: auto;
+    }
+
+    .login{
+        width:200px;
+
+    }
+
+    form{
+        text-align: center;
+    }
+
+    input{
+        padding: 10px;
+    }
+
+    button{
+        margin-top: 20px;
+        padding: 20px;
+        width: 100px;
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+    <header>
+        <nav><a href="">Home</a></nav>
+        <nav><a href="">Contato</a></nav>
+        <nav><a href="">Suporte</a></nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="login">
+            <form action="cadastro.php">
+                    <h1>Formulário</h1>
+                    <label for="iUsername">Usuário:</label>
+                    <input type="text" placeholder="Seu Usuário" autocomplete="username" id="iUsername" required minlength="4" maxlength="16" >
+                    <label for="">Senha:</label>
+                    <input type="password" name="senha" id="iSenha" required placeholder="Sua senha:">
+                    <button type="submit">Acessar</button>
+
+
+                </div>
+        </div>
+        </form>
+    </main>
+</body>
+</html>
